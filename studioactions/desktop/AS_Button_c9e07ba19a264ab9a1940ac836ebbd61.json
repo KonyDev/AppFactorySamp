@@ -1,0 +1,29 @@
+{
+    "AS_Button_c9e07ba19a264ab9a1940ac836ebbd61": {
+        "id": "AS_Button_c9e07ba19a264ab9a1940ac836ebbd61",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c54d0872d23e4216b6b43ea64e3d7518"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ff2ab05164ba4b16b99be26a1086c08b",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Form2",
+            "formKUID": "ee32ce59b2c24a30b9fa99f43c2c3b48",
+            "projectName": "AppFactSamp",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

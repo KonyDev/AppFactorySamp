@@ -1,0 +1,118 @@
+{
+    "testCaseName": "testcaseOne",
+    "testSuiteName": "Test Cases",
+    "channelName": "Desktop",
+    "steps": [
+        {
+            "actionName": "Wait For",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "Form1.rbg1",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "UUID": "2cc82589-cb06-34d5-cb1a-d9f065d06eda",
+                "messageType": "waitFor",
+                "messageData": {
+                    "widgetType": "waitFor",
+                    "metadata": {
+                        "waitFor": "Form1.rbg1"
+                    },
+                    "appName": "AppFactSamp"
+                }
+            },
+            "codeNotReady": false
+        },
+        {
+            "displayReady": true,
+            "actionName": "Click",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "Form1.rbg1",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "DeviceID": "web",
+                    "widgetPath": "Form1.rbg1",
+                    "widgetType": "radiobuttongroup",
+                    "actionType": "click",
+                    "metadata": {
+                        "dataVariable": "rbg1"
+                    },
+                    "appName": "AppFactSamp"
+                },
+                "UUID": "43a7ef29-ba03-4702-a7c7-20f18ecbb36a"
+            },
+            "codeNotReady": false,
+            "metaEditable": true,
+            "dataVariable": "rbg1"
+        },
+        {
+            "displayReady": true,
+            "actionName": "Select Item",
+            "actionIconClassName": "assets/widget_icons/picker.svg",
+            "activeActionIconClassName": "assets/widget_icons/activepicker.svg",
+            "entity": "Form1.lbx",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "DeviceID": "web",
+                    "widgetPath": "Form1.lbx",
+                    "widgetType": "listbox",
+                    "actionType": "selectItem",
+                    "metadata": {
+                        "selection": "lb3"
+                    },
+                    "appName": "AppFactSamp"
+                },
+                "UUID": "db1975c9-8034-4e2e-b51d-94016c9878bb"
+            },
+            "codeNotReady": false,
+            "dispMeta": "lb3",
+            "metaEditable": false
+        },
+        {
+            "displayReady": true,
+            "actionName": "Click",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "Form1.btn",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "DeviceID": "web",
+                    "widgetPath": "Form1.btn",
+                    "widgetType": "button",
+                    "actionType": "click",
+                    "appName": "AppFactSamp"
+                },
+                "UUID": "82f82ae5-30c7-4000-92de-5450c6002989"
+            },
+            "codeNotReady": false,
+            "metaEditable": false
+        }
+    ],
+    "_currentForm": "AppFactSamp/Form1",
+    "timeout": 0,
+    "dataFileName": "testcaseOne_data",
+    "dataFileVarName": "testcaseData_1641795971517",
+    "datasetName": "dataset",
+    "appName": "AppFactSamp",
+    "usedBy": {}
+}
