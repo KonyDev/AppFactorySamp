@@ -74,7 +74,9 @@
         "type": "D"
     },
     "ca3b6b0180254c6e805bc4b0a39fb115": {
-        "children": [],
+        "children": [
+            "he50fbd178da423587198e64d4ace508"
+        ],
         "kuid": "ca3b6b0180254c6e805bc4b0a39fb115",
         "name": "Test Suites",
         "parent": "d5f9873d146a4e2fbd8e2aba1d375406",
@@ -166,6 +168,13 @@
         "parent": "d87767e8aa794f82a82879eac42b8f98",
         "type": "D"
     },
+    "f2d8f71e27504b2e92317b9b6cbd2512": {
+        "extension": "js",
+        "kuid": "f2d8f71e27504b2e92317b9b6cbd2512",
+        "name": "TestPlan1.js",
+        "parent": "i59440fb57bb47cf96eae44664fe0533",
+        "type": "F"
+    },
     "f9b9ec2b73774fce8e8f096b8b4a2ff4": {
         "children": [],
         "kuid": "f9b9ec2b73774fce8e8f096b8b4a2ff4",
@@ -201,6 +210,13 @@
         "parent": "af7bfdb4fedc4cb8b36d26ee550ac607",
         "type": "F"
     },
+    "he50fbd178da423587198e64d4ace508": {
+        "extension": "js",
+        "kuid": "he50fbd178da423587198e64d4ace508",
+        "name": "testSuite1.js",
+        "parent": "ca3b6b0180254c6e805bc4b0a39fb115",
+        "type": "F"
+    },
     "i1615459764947408d636788a802965d": {
         "children": [
             "jf2ff90001ad41e3aaa200808275eb4b"
@@ -212,7 +228,8 @@
     },
     "i59440fb57bb47cf96eae44664fe0533": {
         "children": [
-            "d4ba7f54808e414c9a94052d77acceed"
+            "d4ba7f54808e414c9a94052d77acceed",
+            "f2d8f71e27504b2e92317b9b6cbd2512"
         ],
         "kuid": "i59440fb57bb47cf96eae44664fe0533",
         "name": "Test Plans",

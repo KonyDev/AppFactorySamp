@@ -118,5 +118,9 @@
     "dataFileVarName": "testcaseData_1641796008101",
     "datasetName": "dataset",
     "appName": "AppFactSamp",
-    "usedBy": {}
+    "usedBy": {
+        "AppFactSamp": [
+            "testSuite1.js"
+        ]
+    }
 }

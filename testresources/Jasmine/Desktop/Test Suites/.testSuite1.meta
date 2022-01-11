@@ -1,0 +1,18 @@
+{
+    "groupName": "Test Suites",
+    "testSuiteName": "testSuite1",
+    "testCaseInfo": [
+        {
+            "testcaseName": "testcaseOne.js",
+            "appName": "AppFactSamp",
+            "selectedDataset": "dataset"
+        },
+        {
+            "testcaseName": "testcaseTwo.js",
+            "appName": "AppFactSamp",
+            "selectedDataset": "dataset"
+        }
+    ],
+    "appName": "AppFactSamp",
+    "usedBy": {}
+}
